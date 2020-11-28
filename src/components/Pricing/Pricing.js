@@ -38,7 +38,12 @@ function Pricing() {
                   <PricingCardFeature>CSV files (Email Only)</PricingCardFeature>
                   <PricingCardFeature>Mon-Fri Support</PricingCardFeature>
                 </PricingCardFeatures>
-                <Button primary>Choose Plan</Button>
+                <Button
+                  primary 
+                  onClick={() => window.open('https://transactions.sendowl.com/products/78410078/2BA01291/purchase')}
+                >
+                  Choose Plan
+                </Button>
               </PricingCardInfo>
             </PricingCard>
             <PricingCard to='/sign-up'>
@@ -54,7 +59,12 @@ function Pricing() {
                   <PricingCardFeature>CSV files (Email + Phone)</PricingCardFeature>
                   <PricingCardFeature>Mon-Fri Support</PricingCardFeature>
                 </PricingCardFeatures>
-                <Button primary>Choose Plan</Button>
+                <Button
+                  primary
+                  onClick={() => window.open('https://transactions.sendowl.com/products/78410080/64832A2A/purchase')}
+                >
+                  Choose Plan
+                </Button>
               </PricingCardInfo>
             </PricingCard>
             <PricingCard to='/sign-up'>
@@ -70,7 +80,12 @@ function Pricing() {
                   <PricingCardFeature>CSV files (Email, Phone, Company)</PricingCardFeature>
                   <PricingCardFeature>24/7 Support</PricingCardFeature>
                 </PricingCardFeatures>
-                <Button primary>Choose Plan</Button>
+                <Button
+                  primary
+                  onClick={() => window.open('https://transactions.sendowl.com/products/78409960/9E09907E/purchase')}
+                >
+                  Choose Plan
+                </Button>
               </PricingCardInfo>
             </PricingCard>
           </PricingContainer>
